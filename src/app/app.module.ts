@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginModule }     from './pages/login/login.module';
 import{ PageNotFoundModule } from './pages/page-not-found/page-not-found.module';
+import{ PullManagerModule } from './pages/pull-manager/pull-manager.module';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import{ PageNotFoundModule } from './pages/page-not-found/page-not-found.module'
   imports: [
     BrowserModule,
     LoginModule,
+    PullManagerModule,
     PageNotFoundModule,
     AppRoutingModule
     
