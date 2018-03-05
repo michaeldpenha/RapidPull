@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginModule }     from './pages/login/login.module';
-import{ PageNotFoundModule } from './pages/page-not-found/page-not-found.module';
+//import{ PageNotFoundModule } from './pages/page-not-found/page-not-found.module';
 import{ PullManagerModule } from './pages/pull-manager/pull-manager.module';
 
 
@@ -17,7 +17,7 @@ import{ PullManagerModule } from './pages/pull-manager/pull-manager.module';
     BrowserModule,
     LoginModule,
     PullManagerModule,
-    PageNotFoundModule,
+    //PageNotFoundModule,
     AppRoutingModule
     
   ],
